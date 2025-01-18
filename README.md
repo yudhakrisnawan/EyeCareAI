@@ -1,3 +1,72 @@
+# EyeCareAI  
+Empowering early detection of cataracts with AI technology.  
+
+## About the Model  
+EyeCareAI leverages the power of a Convolutional Neural Network (CNN) trained on thousands of eye images to detect the presence of cataracts with high accuracy. The system provides quick and reliable predictions tailored for medical practitioners and researchers.  
+
+## Features  
+- **Accurate Detection**: High precision in identifying cataracts.  
+- **User-Friendly Interface**: Simple and intuitive steps for analysis.  
+- **Fast Predictions**: Optimized for quick results.  
+
+## How to Use  
+1. **Upload**: Select an eye image in JPG or PNG format.  
+2. **Analyze**: Click the "Analyze" button.  
+3. **Results**: View the classification result as either *Cataract* or *Normal*.
+
+## EyeCareAI Interface  
+The EyeCareAI User Interface is designed for quick and intuitive access to cataract detection. Users can easily upload an image in JPG or PNG format, click "Analyze," and view the result as either Cataract or Normal. This interface emphasizes simplicity and speed, making it ideal for practical medical use.
+
+![EyeCareAI](public/images/EyeCareAI.png)
+
+## Running the Program  
+
+### Prerequisites  
+- PHP and Laravel installed.
+- Python 3.x installed with TensorFlow and required libraries.
+- Laravel Framework and Composer.
+- A web server (e.g., Apache or Nginx). 
+
+## Installation and Running the Program
+
+Follow these steps to set up and run the EyeCareAI system:
+
+### Steps
+
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   cd eyecareai
+   ```
+
+2. **Set Up the Python Environment:**
+   - Install required Python dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Ensure you have TensorFlow and Keras properly installed.
+
+3. **Run the Prediction Script:**
+   - Navigate to the prediction folder:
+     ```bash
+     cd model
+     ```
+   - Execute the prediction script:
+     ```bash
+     python predict.py
+     ```
+
+4. **Start the Laravel Server:**
+   ```bash
+   php artisan serve
+   ```
+
+5. **Access the Application:**
+   Open your browser and navigate to:
+   ```
+   http://localhost:8000
+   ```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
