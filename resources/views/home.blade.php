@@ -59,8 +59,10 @@
         </div>
 
         <!-- Footer -->
-        <footer class="text-center mt-5 text-muted">
-            <small>&copy; 2025 EyeCareAI. All rights reserved.</small>
+        <footer class="bg-transparent text-gray-700 py-4">
+            <div class="container mx-auto text-center">
+                <p class="text-sm">&copy; 2025 <span class="font-semibold">EyeCareAI</span>. Developed by <strong>Yudha Jarod Krisnawan</strong>. All rights reserved.</p>
+            </div>
         </footer>
     </div>
 </body>
